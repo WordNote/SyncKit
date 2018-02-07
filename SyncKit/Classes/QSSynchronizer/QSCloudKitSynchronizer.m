@@ -8,6 +8,7 @@
 
 #import "QSCloudKitSynchronizer.h"
 #import "SyncKitLog.h"
+#import "QSBackupDetection.h"
 #import <CloudKit/CloudKit.h>
 
 #define callBlockIfNotNil(block, ...) if (block){block(__VA_ARGS__);}
@@ -80,6 +81,13 @@ NSString * const QSCloudKitModelCompatibilityVersionKey = @"QSCloudKitModelCompa
             return nil;
         }
         
+        [QSBackupDetection runBackupDetectionWithCompletion:^(QSBackupDetectionResult result, NSError *error) {
+            if (result == QSBackupDetectionResultRestoredFromBackup) {
+                [self clearDeviceIdentifier];
+            }
+        }];
+
+        
         self.database = [container privateCloudDatabase];
         self.dispatchQueue = dispatch_queue_create("QSCloudKitSynchronizer", 0);
     }
@@ -104,6 +112,13 @@ NSString * const QSCloudKitModelCompatibilityVersionKey = @"QSCloudKitModelCompa
     }
     return _deviceIdentifier;
 }
+
+- (void)clearDeviceIdentifier
+{
+    [self.keyValueStore setObject:nil forKey:[self userDefaultsKeyForKey:QSCloudKitDeviceUUIDKey]];
+    _deviceIdentifier = nil;
+}
+
 
 - (void)setupCustomZoneWithCompletion:(void(^)(NSError *error))completionBlock
 {

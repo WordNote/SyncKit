@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6420E092202B69590000C1B1 /* QSBackupDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6420E090202B69580000C1B1 /* QSBackupDetection.m */; };
+		6420E093202B69590000C1B1 /* QSBackupDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6420E091202B69590000C1B1 /* QSBackupDetection.h */; };
 		644B0EA81ED13BF0003B0C51 /* SyncKitRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 644B0EA61ED13BF0003B0C51 /* SyncKitRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		644B0EB41ED13C0B003B0C51 /* QSCloudKitSynchronizer+Realm.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B0EAE1ED13C0B003B0C51 /* QSCloudKitSynchronizer+Realm.m */; };
 		644B0EB51ED13C0B003B0C51 /* QSPendingRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B0EAF1ED13C0B003B0C51 /* QSPendingRelationship.m */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6420E090202B69580000C1B1 /* QSBackupDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSBackupDetection.m; path = ../../../SyncKit/Classes/QSSynchronizer/QSBackupDetection.m; sourceTree = "<group>"; };
+		6420E091202B69590000C1B1 /* QSBackupDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBackupDetection.h; path = ../../../SyncKit/Classes/QSSynchronizer/QSBackupDetection.h; sourceTree = "<group>"; };
 		644B0EA31ED13BF0003B0C51 /* SyncKitRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyncKitRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		644B0EA61ED13BF0003B0C51 /* SyncKitRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncKitRealm.h; sourceTree = "<group>"; };
 		644B0EA71ED13BF0003B0C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				644B0EC31ED13C20003B0C51 /* SyncKitLog.h */,
 				64CDE349200A27CD007F12F9 /* QSTempFileManager.h */,
 				64CDE34A200A27CD007F12F9 /* QSTempFileManager.m */,
+				6420E091202B69590000C1B1 /* QSBackupDetection.h */,
+				6420E090202B69580000C1B1 /* QSBackupDetection.m */,
 				644B0EAE1ED13C0B003B0C51 /* QSCloudKitSynchronizer+Realm.m */,
 				644B0EAF1ED13C0B003B0C51 /* QSPendingRelationship.m */,
 				644B0EB01ED13C0B003B0C51 /* QSRealmChangeManager.m */,
@@ -130,6 +136,7 @@
 				644B0EC51ED13C20003B0C51 /* QSPendingRelationship.h in Headers */,
 				644B0EC61ED13C20003B0C51 /* QSRealmChangeManager.h in Headers */,
 				644B0EC71ED13C20003B0C51 /* QSRecord.h in Headers */,
+				6420E093202B69590000C1B1 /* QSBackupDetection.h in Headers */,
 				644B0EC81ED13C20003B0C51 /* QSSyncedEntity.h in Headers */,
 				644B0EC91ED13C20003B0C51 /* QSChangeManager.h in Headers */,
 				644B0ECA1ED13C20003B0C51 /* QSCloudKitSynchronizer.h in Headers */,
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420E092202B69590000C1B1 /* QSBackupDetection.m in Sources */,
 				644B0EB41ED13C0B003B0C51 /* QSCloudKitSynchronizer+Realm.m in Sources */,
 				644B0EB51ED13C0B003B0C51 /* QSPendingRelationship.m in Sources */,
 				64AE80941FD2FB6F004BFEA4 /* QSCloudKitSynchronizer+Private.m in Sources */,

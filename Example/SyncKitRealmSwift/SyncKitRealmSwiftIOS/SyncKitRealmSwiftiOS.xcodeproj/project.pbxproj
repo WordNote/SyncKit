@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6420E096202B696B0000C1B1 /* QSBackupDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6420E094202B696B0000C1B1 /* QSBackupDetection.m */; };
+		6420E097202B696B0000C1B1 /* QSBackupDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6420E095202B696B0000C1B1 /* QSBackupDetection.h */; };
 		644A05E11F59782600F69505 /* SyncKitRealmSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 644A05DF1F59782600F69505 /* SyncKitRealmSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		644A05EC1F59784D00F69505 /* PendingRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A05E71F59784D00F69505 /* PendingRelationship.swift */; };
 		644A05ED1F59784D00F69505 /* QSCloudKitSynchronizer+RealmSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A05E81F59784D00F69505 /* QSCloudKitSynchronizer+RealmSwift.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6420E094202B696B0000C1B1 /* QSBackupDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSBackupDetection.m; path = ../../../../SyncKit/Classes/QSSynchronizer/QSBackupDetection.m; sourceTree = "<group>"; };
+		6420E095202B696B0000C1B1 /* QSBackupDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBackupDetection.h; path = ../../../../SyncKit/Classes/QSSynchronizer/QSBackupDetection.h; sourceTree = "<group>"; };
 		644A05DC1F59782600F69505 /* SyncKitRealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyncKitRealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A05DF1F59782600F69505 /* SyncKitRealmSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncKitRealmSwift.h; sourceTree = "<group>"; };
 		644A05E01F59782600F69505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 			children = (
 				64CDE351200A27E2007F12F9 /* QSTempFileManager.h */,
 				64CDE352200A27E2007F12F9 /* QSTempFileManager.m */,
+				6420E095202B696B0000C1B1 /* QSBackupDetection.h */,
+				6420E094202B696B0000C1B1 /* QSBackupDetection.m */,
 				644A05DF1F59782600F69505 /* SyncKitRealmSwift.h */,
 				644A05E71F59784D00F69505 /* PendingRelationship.swift */,
 				644A05E81F59784D00F69505 /* QSCloudKitSynchronizer+RealmSwift.swift */,
@@ -114,6 +120,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420E097202B696B0000C1B1 /* QSBackupDetection.h in Headers */,
 				644A05FC1F59785A00F69505 /* QSSyncedEntityState.h in Headers */,
 				644A05F81F59785A00F69505 /* QSChangeManager.h in Headers */,
 				644A05FD1F59785A00F69505 /* SyncKit.h in Headers */,
@@ -196,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420E096202B696B0000C1B1 /* QSBackupDetection.m in Sources */,
 				644A05FA1F59785A00F69505 /* QSCloudKitSynchronizer.m in Sources */,
 				644A05EE1F59784D00F69505 /* RealmSwiftChangeManager.swift in Sources */,
 				64AE80981FD2FBB9004BFEA4 /* QSCloudKitSynchronizer+Private.m in Sources */,

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6420E08A202B69430000C1B1 /* QSBackupDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6420E088202B69430000C1B1 /* QSBackupDetection.m */; };
+		6420E08B202B69430000C1B1 /* QSBackupDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6420E089202B69430000C1B1 /* QSBackupDetection.h */; };
 		644B0EE11ED13CE4003B0C51 /* SyncKitCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 644B0EDF1ED13CE4003B0C51 /* SyncKitCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		644B0F3F1ED13D7D003B0C51 /* NSManagedObjectContext+QSFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 644B0F251ED13D7D003B0C51 /* NSManagedObjectContext+QSFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		644B0F401ED13D7D003B0C51 /* NSManagedObjectContext+QSFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B0F261ED13D7D003B0C51 /* NSManagedObjectContext+QSFetch.m */; };
@@ -47,6 +49,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6420E088202B69430000C1B1 /* QSBackupDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSBackupDetection.m; path = ../../../SyncKit/Classes/QSSynchronizer/QSBackupDetection.m; sourceTree = "<group>"; };
+		6420E089202B69430000C1B1 /* QSBackupDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBackupDetection.h; path = ../../../SyncKit/Classes/QSSynchronizer/QSBackupDetection.h; sourceTree = "<group>"; };
 		644B0EDC1ED13CE4003B0C51 /* SyncKitCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyncKitCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		644B0EDF1ED13CE4003B0C51 /* SyncKitCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncKitCoreData.h; sourceTree = "<group>"; };
 		644B0EE01ED13CE4003B0C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				644B0F2C1ED13D7D003B0C51 /* QSCoreDataChangeManager.m */,
 				644B0F2D1ED13D7D003B0C51 /* QSCoreDataStack.h */,
 				644B0F2E1ED13D7D003B0C51 /* QSCoreDataStack.m */,
+				6420E089202B69430000C1B1 /* QSBackupDetection.h */,
+				6420E088202B69430000C1B1 /* QSBackupDetection.m */,
 				644B0F2F1ED13D7D003B0C51 /* QSEntityIdentifierUpdateMigrationPolicy.h */,
 				644B0F301ED13D7D003B0C51 /* QSEntityIdentifierUpdateMigrationPolicy.m */,
 				644B0F311ED13D7D003B0C51 /* QSManagedObjectContext.h */,
@@ -167,6 +173,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420E08B202B69430000C1B1 /* QSBackupDetection.h in Headers */,
 				644B0EE11ED13CE4003B0C51 /* SyncKitCoreData.h in Headers */,
 				644B0F621ED13D85003B0C51 /* QSSyncedEntityState.h in Headers */,
 				644B0F481ED13D7E003B0C51 /* QSEntityIdentifierUpdateMigrationPolicy.h in Headers */,
@@ -275,6 +282,7 @@
 				64AE80901FD2FB63004BFEA4 /* QSCloudKitSynchronizer+Private.m in Sources */,
 				644B0F4D1ED13D7E003B0C51 /* QSPendingRelationship+CoreDataClass.m in Sources */,
 				644B0F601ED13D85003B0C51 /* QSCloudKitSynchronizer.m in Sources */,
+				6420E08A202B69430000C1B1 /* QSBackupDetection.m in Sources */,
 				644B0F571ED13D7E003B0C51 /* QSSyncedEntity+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
